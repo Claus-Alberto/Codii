@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'ruda';
+    src: url('../../fonts/ruda.woff2') format('woff2'),
+         url('../../fonts/ruda.woff') format('woff');
+}
