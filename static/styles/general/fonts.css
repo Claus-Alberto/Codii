@@ -3,3 +3,9 @@
     src: url('../../fonts/ruda.woff2') format('woff2'),
          url('../../fonts/ruda.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'lumios';
+    src: url('../../fonts/lumios_typewriter.woff2') format('woff2'),
+         url('../../fonts/lumios_typewriter.woff') format('woff');
+}

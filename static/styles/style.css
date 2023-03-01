@@ -1,5 +1,71 @@
+@import url("./general/variables.css");
 @import url("./general/reset.css");
 @import url("./general/fonts.css");
 @import url("./header/header.css");
 @import url("./main/main.css");
 @import url("./lights/lights.css");
+
+section.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: calc(100vh - 80px); */
+    background-color: var(--dark-purple);
+    padding: 50px 0;
+}
+
+section.about div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1300px;
+    z-index: 1;
+    gap: 30px;
+}
+
+section.about div.container h1 {
+    font-family: 'lumios', 'Times New Roman', Times, serif;
+    font-size: var(--h1-size);
+    color: var(--white);
+    text-shadow: 0 0 10px var(--white);
+    text-transform: uppercase;
+}
+
+section.about div.container div.itens {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 83px;
+}
+
+section.about div.container div.itens div.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+}
+
+section.about div.container div.itens div.item img {
+    height: 250px;
+}
+
+section.about div.container div.itens div.item h2 {
+    font-size: var(--h1-size);
+    text-transform: uppercase;
+    font-family: 'lumios', 'Times New Roman', Times, serif;
+    color: var(--yellow);
+    text-shadow: 0 0 10px var(--yellow);
+    text-align: center;
+}
+
+section.about div.container div.itens div.item p {
+    font-size: 1rem;
+    font-family: 'ruda', Arial, Helvetica, sans-serif;
+    color: var(--white);
+    line-height: 1.5rem;
+    text-align: center;
+}
