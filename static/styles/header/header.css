@@ -11,7 +11,7 @@ header {
 }
 
 header ul{
-    width: 1300px;
+    width: var(--container-width);
     height: 80px;
     display: flex;
     justify-content: space-around;

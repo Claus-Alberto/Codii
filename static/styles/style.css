@@ -20,7 +20,7 @@ section.about div.container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1300px;
+    width: var(--container-width);
     z-index: 1;
     gap: 30px;
 }
